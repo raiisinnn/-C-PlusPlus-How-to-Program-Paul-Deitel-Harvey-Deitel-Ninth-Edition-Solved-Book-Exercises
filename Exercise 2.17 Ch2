@@ -10,19 +10,6 @@ c) Using four statements.
 using namespace std;
 int main() 
 {
-    cout<< "\"\t\"\n";
-    cout<<"\t O \tO\n";
-    cout<<"   ( /\\) \n";
-    cout<<" =   ";
-
-    return 0;
-}
-*/
-
-
-//U 2,17
-/*
-{
  cout << "1 2 3 4"<<endl;
 
  cout << "1 " << "2 " << "3 " << "4"<<endl;
