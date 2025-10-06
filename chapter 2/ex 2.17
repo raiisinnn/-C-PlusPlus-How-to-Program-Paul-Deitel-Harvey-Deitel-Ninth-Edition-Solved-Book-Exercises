@@ -2,7 +2,6 @@
 using namespace std;
 int main() 
 
-//U 2,17
 {
  cout << "1 2 3 4"<<endl;
 
