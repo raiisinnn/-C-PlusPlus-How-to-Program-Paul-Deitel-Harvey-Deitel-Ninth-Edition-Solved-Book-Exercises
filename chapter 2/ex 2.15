@@ -16,7 +16,6 @@ This order of operations leads us to the result: x = 324.
 
 ///CODE VER///
 
-//U 2.15
 
 #include <iostream>
 
