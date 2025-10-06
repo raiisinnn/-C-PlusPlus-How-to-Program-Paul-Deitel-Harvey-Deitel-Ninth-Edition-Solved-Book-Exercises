@@ -1,23 +1,22 @@
 #include <iostream>
 using namespace std;
-int main() 
 
- //U 2.20
- {
+int main() //U 2.20
+{
     double r;
     double d;
     double per;
     double s;
-    double const p = 3.14;
+    const double p = 3.14;
 
-    cout<< "Vendosni vleren e rrezes se rrethit tuaj: "<<endl;
-    cin>>r;
-    d = 1.0*2*r;
-    cout<< "Vlera e diametrit eshte: "<<d<<endl;
-    per = 1.0*2*p*r;
-    cout<< "Vlera e perimetrit eshte: "<<per<<endl;
-    s = 1.0*p*(r*r);
-    cout<< "Vlera e syprines eshte: "<<s<<endl;
+    cout << "Enter the value of your circle's radius: " << endl;
+    cin >> r;
+    d = 2 * r;
+    cout << "The value of the diameter is: " << d << endl;
+    per = 2 * p * r;
+    cout << "The value of the perimeter is: " << per << endl;
+    s = p * (r * r);
+    cout << "The value of the surface area is: " << s << endl;
 
     return 0;
 }
