@@ -12,3 +12,23 @@ This order of operations leads us to the result: x = 3.
 c) x = ( 3 * 9 * ( 3 + ( 9 * 3 / ( 3 ) ) ) );
 First, the multiplications inside the parentheses are performed (3 * 9) and (9 * 3), then the division (27 / 3), followed by the addition inside the parentheses (3 + 9), and finally the outer multiplication (27 * 12).
 This order of operations leads us to the result: x = 324.
+
+
+///CODE VER///
+
+//U 2.15
+
+#include <iostream>
+
+using namespace std;
+int main ()
+{
+	int x = 7 + 3 * 6 / 2 - 1;
+	cout<<x<<endl;
+	int y = 2 % 2 + 2 * 2 - 2 / 2;
+	cout<<y<<endl;
+	int z = ( 3 * 9 * ( 3 + ( 9 * 3 / ( 3 ) ) ) );
+	cout<<z<<endl;
+
+ return 0;
+}
